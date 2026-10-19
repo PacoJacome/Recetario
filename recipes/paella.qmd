@@ -1,0 +1,23 @@
+---
+title: "Paella Valenciana"
+origin: "España"
+ingredients: "Arroz bomba, Pollo, Conejo, Judía plana, Garrofón"
+allergens: "Sin alérgenos comunes"
+description: "Arroz bomba, Pollo, Conejo, Judía plana, Garrofón"
+categories: ["España", "Pollo", "Arroz", "Sin Gluten", "Sin Lácteos"]
+---
+
+## Ingredientes Principales
+- 400g de arroz bomba
+- 500g de pollo troceado
+- 300g de conejo troceado
+- 200g de judía plana (bajoqueta)
+- 100g de garrofón
+- Tomate rallado, aceite de oliva, azafrán, sal y agua (hasta los remaches).
+
+## Elaboración
+1. Nivelar la paella, añadir el aceite y sofreír la carne lentamente hasta que esté dorada.
+2. Añadir la verdura y sofreír unos minutos más. Hacer un hueco en el centro y sofreír el tomate.
+3. Añadir el pimentón dulce e inmediatamente el agua. Añadir el azafrán y la sal. Dejar cocer el caldo unos 20-30 minutos.
+4. Añadir el arroz repartiéndolo uniformemente. Cocer a fuego fuerte 5 minutos y luego bajar el fuego durante 10-15 minutos más.
+5. Dejar reposar 5 minutos antes de servir.

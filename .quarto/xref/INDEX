@@ -1,0 +1,14 @@
+{
+  "index.qmd": {
+    "index.html": "ea551950"
+  },
+  "recipes/paella.qmd": {
+    "paella.html": "b365c9b3"
+  },
+  "recipes/tacos.qmd": {
+    "tacos.html": "e080b317"
+  },
+  "recipes/tiramisu.qmd": {
+    "tiramisu.html": "5d747f20"
+  }
+}

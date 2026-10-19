@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Recetario de Elena y Paco"
+  navbar:
+    title: false
+    left:
+      - href: index.qmd
+        text: Recetario de Elena y Paco
+
+format:
+  html:
+    respect-user-color-scheme: true
+    theme:
+      light: [sandstone, styles-light.scss]
+      dark: [solar, styles-dark.scss]
+    # css: styles.css
+    toc: true
+    lang: es

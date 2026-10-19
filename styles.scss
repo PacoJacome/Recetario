@@ -1,0 +1,24 @@
+/*-- scss:defaults --*/
+// 1. VARIABLES DE TEMA (Se procesan ANTES de cargar Bootstrap)
+$primary: #64731e;       /* Aceituna */ 
+$secondary: #d97724;     /* Naranja cálido / Ámbar */
+$link-color: #c05a46;    /* Terracota / Teja */ 
+
+/*-- scss:rules --*/
+// 2. REGLAS CSS Y MODO CLARO/OSCURO (Se procesan DESPUÉS de cargar Bootstrap)
+
+/* MODO CLARO (Efecto papel / cocina tradicional) */
+html[data-bs-theme="light"] {
+  --bs-body-bg: #fdfbf7;       /* Fondo crema suave */
+  --bs-body-color: #2b231f;    /* Texto café muy oscuro */
+  --bs-card-bg: #fffbf5;       /* Fondo de tarjetas en crema claro */
+  --bs-border-color: #eee3d5;  /* Bordes suaves tono arena */
+}
+
+/* MODO OSCURO (Efecto chocolate / tono cálido nocturno) */
+html[data-bs-theme="dark"] {
+  --bs-body-bg: #1c1816;       /* Fondo café chocolate muy oscuro */
+  --bs-body-color: #f2e9e1;    /* Texto crema claro */
+  --bs-card-bg: #27221f;       /* Tarjetas en tono marrón oscuro */
+  --bs-border-color: #3b332f;  /* Bordes sutiles en tono madera */
+}

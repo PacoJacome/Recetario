@@ -1,0 +1,22 @@
+---
+title: "Índice de recetas"
+listing:
+  contents: recipes
+  type: table
+  fields: [title, origin, ingredients, allergens]
+  field-links: [title]                                 # <-- Hace que el título sea clickable
+  field-display-names:
+    title: "Nombre del plato"
+    origin: "Origen"
+    ingredients: "Ingredientes"
+    allergens: "Alérgenos e intolerancias"
+  sort: "title asc"
+  sort-ui: [title, origin]
+  filter-ui: [title, origin, ingredients, allergens]  # <-- Obliga al buscador a buscar dentro de los ingredientes
+  categories: true
+page-layout: full
+---
+
+<!-- Creado en: https://gemini.google.com/u/1/app/a88d291c1c7eb66a?pageId=none -->
+
+Este es nuestro recetario digital. Usa la barra de búsqueda (*Filtro*) para buscar por ingrediente o nombre, utiliza los menús de ordenación, o selecciona las categorías de la derecha para filtrar por origen o dieta. 

@@ -1,0 +1,47 @@
+/*-- scss:defaults --*/
+// Importación de tipografías idénticas desde Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+// Tipografía fija para ambos modos
+$font-family-sans-serif: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+$font-family-base: $font-family-sans-serif;
+$headings-font-family: "Lora", Georgia, serif;
+
+// Variables de colores para el modo oscuro
+$primary:  #73581E;       /* Marroncito */ 
+$secondary: #f08c38;     // Naranja cálido
+$link-color: #e06d53;
+$body-bg: #1c1816;       // Fondo café chocolate oscuro
+$body-color: #f2e9e1;    // Texto crema claro
+
+/*-- scss:rules --*/
+
+// =======================================================
+// ESTILOS DE CAJAS DE FILTRO Y ORDENAR EN MODO OSCURO
+// =======================================================
+
+// 1. Fondo, texto y borde para la caja de filtro y el selector de ordenación
+.quarto-listing-filter-ui input,
+.quarto-listing-sort-ui select,
+.form-control,
+.form-select {
+  background-color: #27221f !important; // Tono café chocolate (ligeramente más claro que el fondo)
+  color: #f2e9e1 !important;            // Texto crema claro
+  border-color: #4a403a !important;        // Borde tono madera/tierra
+}
+
+// 2. Color cuando el usuario hace clic dentro de la caja (focus)
+.quarto-listing-filter-ui input:focus,
+.quarto-listing-sort-ui select:focus,
+.form-control:focus,
+.form-select:focus {
+  background-color: #2e2825 !important;
+  color: #ffffff !important;
+  border-color: #e06d53 !important;        // Borde terracota al escribir
+  box-shadow: 0 0 0 0.25rem rgba(224, 109, 83, 0.25) !important; // Resplandor cálido
+}
+
+// 3. Color del icono/flecha del menú desplegable y texto de ayuda (placeholder)
+::placeholder {
+  color: #a89f91 !important;
+}

@@ -1,0 +1,22 @@
+---
+title: "Tiramisú Clásico"
+origin: "Italia"
+ingredients: "Mascarpone, Huevos, Azúcar, Café, Cacao, Bizcochos"
+allergens: "Contiene: Lácteos, Gluten, Huevo"
+categories: ["Italia", "Postre", "Lácteos", "Gluten", "Huevo"]
+---
+
+## Ingredientes Principales
+- 500g de queso mascarpone
+- 4 huevos muy frescos
+- 100g de azúcar
+- Café expreso frío
+- Cacao puro en polvo
+- Bizcochos de soletilla
+
+## Elaboración
+1. Separar las yemas de las claras. Batir las yemas con la mitad del azúcar hasta que blanqueen. Incorporar el mascarpone poco a poco.
+2. Montar las claras a punto de nieve con el resto del azúcar. Incorporarlas a la mezcla anterior con movimientos envolventes.
+3. Mojar ligeramente los bizcochos en el café frío y poner una capa en la base de un molde.
+4. Cubrir con la mitad de la crema. Poner otra capa de bizcochos y terminar con el resto de la crema.
+5. Refrigerar al menos 4 horas (mejor de un día para otro). Espolvorear con cacao en polvo justo antes de servir.
