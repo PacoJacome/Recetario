@@ -1,0 +1,126 @@
+/* ===================================================
+   1. MODO CLARO (Efecto Papel Crema)
+   =================================================== */
+html[data-bs-theme="light"] body {
+  background-color: #F8FFD9 !important; /* Fondo crema */
+  color: #2b231f !important;           /* Texto café */
+}
+
+/* ===================================================
+   2. MODO OSCURO (Efecto Chocolate Cálido)
+   =================================================== */
+/* Fondo general */
+html[data-bs-theme="dark"] body {
+  background-color: #1c1816 !important; /* Fondo chocolate oscuro */
+  color: #f2e9e1 !important;           /* Texto crema claro */
+}
+
+/* Cajas del buscador, selector de ordenar e icono de la lupa */
+html[data-bs-theme="dark"] .quarto-listing-controls input,
+html[data-bs-theme="dark"] .quarto-listing-controls select,
+html[data-bs-theme="dark"] .quarto-listing-controls .btn,
+html[data-bs-theme="dark"] .input-group-text {
+  background-color: #27221f !important; /* Fondo café para las cajas */
+  color: #f2e9e1 !important;           /* Texto de la caja */
+  border-color: #4a403a !important;     /* Borde tono madera */
+}
+
+/* Textos de "Ordenar por", categorías e iconos */
+html[data-bs-theme="dark"] .quarto-listing-sort-ui-title,
+html[data-bs-theme="dark"] .quarto-listing-category-title,
+html[data-bs-theme="dark"] .quarto-listing-category .category,
+html[data-bs-theme="dark"] .bi {
+  color: #f2e9e1 !important;
+}
+
+/* ===================================================
+   3. ESTILOS COMUNES (Títulos y enlaces terracota)
+   =================================================== */
+a, .listing-title, h1, h2, h3 {
+  color: #c05a46 !important; /* Terracota cálido */
+}
+
+/* ===================================================
+   1. CORRECCIÓN DE FRANJA SUPERIOR Y ALTURA DE LA BARRA
+   =================================================== */
+/* El contenedor exterior va pegado arriba del todo sin espacio */
+#quarto-header {
+  margin: 0 !important;
+  padding: 0 !important;
+  top: 0 !important;
+  border: none !important;
+}
+
+/* El espacio/relleno se aplica ÚNICAMENTE dentro de la barra */
+#quarto-header .navbar {
+  margin: 0 !important;
+  padding-top: 0.4rem !important;
+  padding-bottom: 0.4rem !important;
+  border: none !important;
+}
+
+#quarto-header .nav-link,
+#quarto-header .navbar-brand,
+#quarto-header .quarto-color-scheme-toggle {
+  line-height: 1.5 !important;
+}
+
+
+/* ===================================================
+   2. BARRA EN MODO CLARO (Terracota)
+   =================================================== */
+#quarto-header,
+#quarto-header .navbar,
+#quarto-header .navbar-container,
+#quarto-header nav,
+#quarto-header .bg-primary {
+  background-color: #c05a46 !important;
+  background: #c05a46 !important;
+  --bs-navbar-bg: #c05a46 !important;
+}
+
+/* Texto, enlaces e icono del sol/luna en modo claro */
+#quarto-header .navbar *,
+#quarto-header .navbar a,
+#quarto-header .navbar .nav-link,
+#quarto-header .navbar .navbar-title,
+#quarto-header .quarto-color-scheme-toggle,
+#quarto-header .quarto-color-scheme-toggle * {
+  color: #fdfbf7 !important;
+  fill: #fdfbf7 !important;
+}
+
+
+/* ===================================================
+   3. BARRA EN MODO OSCURO (Chocolate profundo)
+   =================================================== */
+html[data-bs-theme="dark"] #quarto-header,
+html[data-bs-theme="dark"] #quarto-header .navbar,
+html[data-bs-theme="dark"] #quarto-header .navbar-container,
+html[data-bs-theme="dark"] #quarto-header nav,
+body.quarto-dark #quarto-header,
+body.quarto-dark #quarto-header .navbar,
+body.quarto-dark #quarto-header .navbar-container,
+body.quarto-dark #quarto-header nav {
+  background-color: #14100e !important;
+  background: #14100e !important;
+  --bs-navbar-bg: #14100e !important;
+  border-bottom: 1px solid #3b332f !important;
+}
+
+/* Texto, enlaces e icono del sol/luna en modo oscuro */
+html[data-bs-theme="dark"] #quarto-header .navbar *,
+html[data-bs-theme="dark"] #quarto-header .navbar a,
+html[data-bs-theme="dark"] #quarto-header .nav-link,
+html[data-bs-theme="dark"] #quarto-header .navbar-title,
+html[data-bs-theme="dark"] #quarto-header .quarto-color-scheme-toggle,
+html[data-bs-theme="dark"] #quarto-header .quarto-color-scheme-toggle *,
+body.quarto-dark #quarto-header .navbar *,
+body.quarto-dark #quarto-header .navbar a,
+body.quarto-dark #quarto-header .nav-link,
+body.quarto-dark #quarto-header .navbar-title,
+body.quarto-dark #quarto-header .quarto-color-scheme-toggle,
+body.quarto-dark #quarto-header .quarto-color-scheme-toggle * {
+  color: #f2e9e1 !important;
+  fill: #f2e9e1 !important;
+}
